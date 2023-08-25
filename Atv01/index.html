@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valorant Infos</title>
+</head>
+<body>
+    <!-- Já havia feito com tags semânticas na atividade 01 -->
+    <header>
+        <h1>Valorant Infos</h1>
+    </header>
+
+    <!-- Section para breve introdução-->
+    <section>
+        <article>
+      Valorant é um jogo de tiro tático em primeira pessoa desenvolvido pela Riot Games. No jogo, 
+      os jogadores assumem o papel de agentes, cada um com habilidades únicas, e participam de 
+      partidas competitivas em equipe. O objetivo principal é vencer a equipe adversária, completando 
+      objetivos específicos, como plantar ou desarmar uma bomba. O jogo é conhecido por sua 
+      jogabilidade estratégica, que envolve o uso habilidoso das habilidades dos agentes, trabalho em 
+      equipe e precisão de tiro. Com gráficos impressionantes e um elenco diversificado de personagens, 
+      Valorant se tornou um dos jogos mais populares no cenário dos esports, atraindo jogadores de 
+      todo o mundo para competições emocionantes e estratégicas.
+        </article>
+    </section>
+
+      <!-- Nav para mais informações-->
+    <nav>
+        <ul>
+            <li><a href="https://playvalorant.com/" target="_blank">Site Oficial Valorant</a></li>
+            <li><a href="https://valorant.fandom.com/" target="_blank">Wiki Valorant</a></li>
+            <li>
+                <a href="https://canaltech.com.br/jogos-para-pc/personagens-de-valorant-todos-os-agentes-do-jogo/" target="_blank">
+                    <img src="https://cdn.oneesports.gg/cdn-data/2022/12/Valorant_AllValorantAgents-1024x576.webp" alt="Agentes Valorant">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+      <!-- Section com informações de algums agentes. -->
+    <section>
+        <h2>Tabela de Agentes Valorant</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Função</th>
+                    <th>Habilidade Especial</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Jett</strong></td>
+                    <td>Duelista</td>
+                    <td>Updraft, Cloudburst, Blade Storm</td>
+                </tr>
+                <tr>
+                    <td><strong>Sova</strong></td>
+                    <td>Atirador de elite</td>
+                    <td>Owl Drone, Shock Bolt, Hunter's Fury</td>
+                </tr>
+                <tr>
+                    <td><strong>Brimstone</strong></td>
+                    <td>Controlador</td>
+                    <td>Incendiary, Stim Beacon, Orbital Strike</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <article>
+            <h2>Cadastro de Usuário</h2>
+            <form action="https://www.w3schools.com/action_page.php" method="GET">
+                <!-- Campo de nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" maxlength="15" required>
+                <br>
+
+                <!-- Campo de texto apenas para leitura -->
+                <label for="texto-leitura">Informações do Jogo:</label>
+                <input type="text" id="texto-leitura" name="texto-leitura" readonly value="Valorant">
+                <br>
+
+                <!-- Campo numérico para inserir números entre 25000 e 30000 -->
+                <label for="pontuacao">Pontuação:</label>
+                <input type="number" id="pontuacao" name="pontuacao" min="25000" max="30000" required>
+                <br>
+
+                <!-- Input do tipo radiobox -->
+                <label>Gênero:</label>
+                <input type="radio" id="masculino" name="genero" value="Masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="feminino" name="genero" value="Feminino">
+                <label for="feminino">Feminino</label>
+                <br>
+
+                <!-- Input do tipo checkbox -->
+                <label>Modo de Jogo Preferido:</label>
+                <input type="checkbox" id="ranqueado" name="modos" value="Ranqueado">
+                <label for="ranqueado">Ranqueado</label>
+                <input type="checkbox" id="casual" name="modos" value="Casual">
+                <label for="casual">Casual</label>
+                <br>
+
+                <!-- Botão de envio do formulário -->
+                <input type="submit" value="Cadastrar">
+            </form>
+        </article>
+    </section>
+</body>
+</html>
